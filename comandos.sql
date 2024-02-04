@@ -1,3 +1,5 @@
+-- MySQL-specific syntax
+
 /* Modelagem básica */
 
 CREATE DATABASE PROJETO;
