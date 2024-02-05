@@ -61,7 +61,7 @@ WHERE SEXO_DO_AUTOR = "Feminino";
 
 -- 5 – Trazer os valores dos livros das editoras de São Paulo.
 
-SELECT VALOR_DO_LIVRO AS "Preço" FROM LIVROS
+SELECT NOME_DO_LIVRO, VALOR_DO_LIVRO AS "Preço" FROM LIVROS
 WHERE ESTADO_DA_EDITORA = "SP";
 
 -- 6 – Trazer os dados dos autores do sexo masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).
